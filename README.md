@@ -45,7 +45,7 @@ _Fig. 1: Incremental transformative process._
 
 # Usage
 
-You can find **_Libra_**'s detailed manual [here](https://github.com/StructuralXplorationLab/Libra/blob/main/doc/Libra%20User%20Manaul%20(1.0.0)%20%5Bfinal%5D.pdf). Alternatively, below you have a brief to start with...
+You can find **_Libra_**'s detailed manual [here](https://github.com/StructuralXplorationLab/Libra/blob/main/doc/Libra_User_Manual_1.0.0.pdf). Alternatively, below you have a brief to start with...
 
 A primitive setup of the transformative design process with Libra is demonstrated below in Fig. 6. Each of the circled component groups accomplishes a certain task. Groups 1 and 2, provide the permanent input parameters and groups 3-6 describe the transformation policy through transient parameters. Group 7 applies the transformation in compliance with the built policy.
 
