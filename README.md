@@ -1,7 +1,7 @@
 ![GitHub Release Date](https://img.shields.io/github/release-date/StructuralXplorationLab/Libra?color=%2326a7de&logo=GitHub)
 ![GitHub issues](https://img.shields.io/github/issues/StructuralXplorationLab/Libra?logo=GitHub)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/StructuralXplorationLab/Libra?logo=GitHub)
-![alt text](https://github.com/StructuralXplorationLab/Libra/blob/main/img/logoTitle.png)
+![alt text](https://github.com/StructuralXplorationLab/Libra/blob/main/img/logoTitle_1200x1200.png)
 
 # Table of contents
 
@@ -39,7 +39,7 @@ Check the video tutorial [here](https://www.rhino3d.com/features/package-manager
 
 Libra describes an incremental transformative process that allows the transition from an incomplete network (Fig. 1, stage 00) to a complete one (Fig. 1, stage 13). In other words, the incremental elimination of interim forces in the network. At every intermediate step the network is in static equilibrium (interim when interim forces—vectors in cyan—are still present, or global when no interim forces exist).
 
-![alt text](https://github.com/StructuralXplorationLab/Libra/blob/main/img/IncrementalTransformativeProcess.png)
+![alt text](https://github.com/StructuralXplorationLab/Libra/blob/main/img/IncrementalTransformativeProcess_1200x513.png)
 
 _Fig. 1: Incremental transformative process._
 
@@ -59,7 +59,7 @@ A primitive setup of the transformative design process with Libra is demonstrate
 
 Groups 3-6 describe design decisions that can be applied once or for the course of multiple transformations. The number of transformations is defined at group 7. If different decisions need to be made, groups 3-6 need to be redefined (the respective components must be introduced again on Grasshopper canvas) and the transformed model (output from group 7) should be provided as input for the upcoming transformations, if more interim forces exist.
 
-![alt text](https://github.com/StructuralXplorationLab/Libra/blob/main/img/GrasshopperCanvasOverview.png)
+![alt text](https://github.com/StructuralXplorationLab/Libra/blob/main/img/GrasshopperCanvasOverview_1200x517.png)
 
 _Fig. 2: Grasshopper canvas overview of a complete trnasformation setup that transforms the interim network according to a policy defined via rules._
 
@@ -79,7 +79,7 @@ Each step describes a transformation that consists of the introduction of:
 
 Fig. 3 illustrates a simple example of a transformation step.
 
-![alt text](https://github.com/StructuralXplorationLab/Libra/blob/main/img/BeforeAfterTransformation.png)
+![alt text](https://github.com/StructuralXplorationLab/Libra/blob/main/img/BeforeAfterTransformation_1200x300.png)
 
 _Fig. 3: Before/After transformation in space. Black arrows represent force actions that are applied externally to the (sub)system. Cyan arrows represent interim forces. Bars in compression are thick lines. Bars in tension are thin lines._
 
@@ -101,7 +101,7 @@ Each transformation is controlled by four design decisions:
 - _peripheral_
 - _central_
 
-![alt text](https://github.com/StructuralXplorationLab/Libra/blob/main/img/ConnectivityTopologies.png)
+![alt text](https://github.com/StructuralXplorationLab/Libra/blob/main/img/ConnectivityTopologies_1200x263.png)
 
 _Fig. 4: The possible connectivity topologies._
 
@@ -130,7 +130,7 @@ Fig. 5 illustrates all possible transformations in compliance with the design de
 
 **Hint**: Consider drafting the force diagram of each transformation while designing! It will give you a better understanding of the transformation final geometry.
 
-![alt text](https://github.com/StructuralXplorationLab/Libra/blob/main/img/TransformationStep.png)
+![alt text](https://github.com/StructuralXplorationLab/Libra/blob/main/img/TransformationStep_1200x1755.png)
 
 _Fig. 5: Transformation step for all combinations of entropy rates, numbers of interim forces and topological configurations. Black arrows represent force actions that are applied externally to the (sub)system; cyan arrows represent interim forces, all circumscribed within a primitive design domain (grey). Bars in compression are thick lines. Bars in tension are thin lines._
 
@@ -138,7 +138,7 @@ Libra provides a design workflow that ensures static equilibrium of the generate
 
 Between node P and the existing nodes of the network, new bars are introduced. Their construction implies that the bars are not interrupted by voids or non-convexities of the design domain. This condition is satisfied when certain visibilities between nodes are satisfied. The geometric domain that describes all possible locations that node P can have, while ensuring that the necessary bars can be constructed uninterrupted is named **constructability domain** (Fig. 6). Do not worry, as a designer, you do not have to compute this domain. The algorithm will check that. Be aware though that the geometric domain where node P can be safely introduced during each transformation is the intersection of the two domains and is named **feasibility domain**.
 
-![alt text](https://github.com/StructuralXplorationLab/Libra/blob/main/img/EntropyRate%2BConstructabilityDomains.png)
+![alt text](https://github.com/StructuralXplorationLab/Libra/blob/main/img/EntropyRate%2BConstructabilityDomains_1200x1237.png)
 
 _Fig. 6: Typologies of entropy rate and constructability domains. Black arrows represent force actions that are applied externally to the (sub)system; cyan arrows represent interim forces, all circumscribed within a primitive design domain (grey). Magenta regions on the left are the intersections of the design domain (a non-convex solid with a void) with the entropy rate domain. Magenta regions on the right are the intersections of the design domain with the constructability domain._
 
@@ -164,13 +164,14 @@ Wait for the new release.....some bugs will be fixed....
 
 ```
 @software{Mirtsopoulos_Libra_2022,
+  title = {{Libra: A grammar for generating structural topologies}},
   author = {Ioannis, Mirtsopoulos},
-  doi = {},
-  month = {07},
-  title = {{Libra}},
-  url = {https://github.com/StructuralXplorationLab/Libra},
-  version = {1.0.0},
+  note = {https://github.com/StructuralXplorationLab/Libra},
   year = {2022}
+  version = {1.0.0},
+  month = {07},
+  doi = {},
+  url = {}
 }
 ```
 
