@@ -51,9 +51,9 @@ A primitive setup of the transformative design process with Libra is demonstrate
 
 1. Construct design domain
 2. Construct model
-3. Select forces (in Fig. 6 the selection is implicit—for 2D applications strictly choose between monomials and binomials, trinomials best apply for 3D applications)
+3. Select forces (in Fig. 6 the selection is implicit—for 2D applications you can only choose between monomials and binomials)
 4. Place new node (in Fig. 6 the selection is explicit—keep it explicit choosing between _UserSelectParam_ and _UserSelectedPt_)
-5. Set force indeterminacies (in Fig. 6 the selection is explicit—keep it explicit by selecting _UserDefinedMagnitude_ and manually define N1, N2, N3)
+5. Set force indeterminacies (in Fig. 6 the selection is explicit—keep it explicit by selecting _UserDefinedMagnitude_ and manually define N1, N2, N3 as a Gene Pool)
 6. Construct policy
 7. Apply transformation
 
@@ -109,12 +109,12 @@ The available **force(s) selection** options are:
 
 - _monomial_; only one force vector is selected
 - _binomial_; two force vectors are selected
-- _trinomial_; three force vectors are selected
+- _trinomial_; three force vectors are selected (feature currently not activated)
 
 As a designer, you make the selection _implicitly_ or _explicitly_.
 
 - _explicitly_; manual selection of the interim forces and the topology
-- _implicitly_; automated selection of forces and topology through a designer-chosen rule (there is a long list of self-explanatory rules, additional parameters might be required)
+- _implicitly_; automated selection of forces and topology through a designer-chosen rule (there is a list of rules, additional parameters might be required)
 
 3. **The transformation geometry**—the position of the new node P, described as **node placement**. As a designer, you do the placement _implicitly_ or _explicitly_.
 
@@ -123,7 +123,7 @@ As a designer, you make the selection _implicitly_ or _explicitly_.
 
 4. **The structural behavior of the transformation**—the type (compression/tension) and magnitude of the axial forces developed along the introduced bars, described as **force indeterminacies**. As a designer, you make the selection _implicitly_ or _explicitly_.
 
-- _explicitly_; manual provision of axial forces (N1, N2, N3) for all three new bars
+- _explicitly_; manual provision of axial forces (N1, N2, N3) for all two (or three) new bars
 - _implicitly_; automated definition of axial forces (there is a list of self-explanatory rules; additional parameters might be required)
 
 Fig. 5 illustrates all possible transformations in compliance with the design decisions made. The provided force diagram confirms the static equilibrium condition after the transformation.
@@ -144,11 +144,11 @@ _Fig. 6: Typologies of entropy rate and constructability domains. Black arrows r
 
 # Known issues
 
-- The components that define the rules (_Construct Force Selection Rule_, _Construct Node Placement Rule_ & _Construct Force Indeterminacies Rule_) have **dynamic** number of inputs, which means that the number of input slots varies based on the desired rule ID. Although this behavior allows the request of only the crucial parameters it comes with its drawbacks. When a .gh file that contains those components is re-opened, some of the input parameters needs to be linked again to the input slots.
-
-- In the _Design Space Exploration_ component the population of each generation is clustered to 12 representative designs. The clustering is **genotype-based** and therefore the 12 representatives can be misleading, aka "hiding" designs that have different phenotype. For extensive design exploration it is highly recommended to browse through the entire population of each generation.
+- The _Construct Force Selection Rule_ complonent (and some others) have **dynamic** number of inputs, which means that the number of input slots varies based on the desired rule ID. When shifting from force selection rule _Random_ or _ProximityToUserSelectedPoint_ to an other rule, the rule might not be constructed. Try to toggle some of the other input parameters and use a label component to make sure _ForseS_ outputs a rule.
 
 - The _Construct domain_ component does **not** support multiple voids. If more than one are provided, only the first one will be considered.
+
+- In the _Design Space Exploration_ component the population of each generation is clustered to 12 representative designs. The clustering is **genotype-based** and therefore the 12 representatives can be misleading, aka "hiding" designs that have different phenotype. For extensive design exploration it is highly recommended to browse through the entire population of each generation.
 
 # Version history
 
@@ -168,7 +168,7 @@ Wait for the new release.....some bugs will be fixed....
   author = {Ioannis, Mirtsopoulos},
   note = {https://github.com/StructuralXplorationLab/Libra},
   year = {2022}
-  version = {1.0.0},
+  version = {1.0.3},
   month = {07},
   doi = {},
   url = {}
