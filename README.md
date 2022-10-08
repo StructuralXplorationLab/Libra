@@ -169,10 +169,9 @@ Wait for the new release.....some bugs will be fixed....
   author = {Ioannis, Mirtsopoulos},
   note = {https://github.com/StructuralXplorationLab/Libra},
   year = {2022}
-  version = {1.0.3},
-  month = {07},
-  doi = {},
-  url = {}
+  month = {10},
+  version = {1.0.5},
+  doi = {to.be.added},
 }
 ```
 
