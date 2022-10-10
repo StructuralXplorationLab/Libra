@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/510770846.svg)](https://zenodo.org/badge/latestdoi/510770846)
 ![GitHub Release Date](https://img.shields.io/github/release-date/StructuralXplorationLab/Libra?color=%2326a7de&logo=GitHub)
 ![GitHub issues](https://img.shields.io/github/issues/StructuralXplorationLab/Libra?logo=GitHub)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/StructuralXplorationLab/Libra?logo=GitHub)
