@@ -172,7 +172,7 @@ Wait for the new release.....some bugs will be fixed....
   year = {2022}
   month = {10},
   version = {1.0.5},
-  doi = {to.be.added},
+  doi = {10.5281/zenodo.7180829},
 }
 ```
 
