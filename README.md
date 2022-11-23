@@ -153,7 +153,7 @@ _Fig. 6: Typologies of entropy rate and constructability domains. Black arrows r
 
 # Version history
 
-Wait for the new release.....some bugs will be fixed....
+https://github.com/StructuralXplorationLab/Libra/releases
 
 # Related publications
 - **Mirtsopoulos, I.**, Fivet, C., 2022. "Exploration of static equilibrium representations; policies and genetic algorithms", in: _Structures and Architecture A Viable Urban Perspective?_ pp. 1137–1144. <https://doi.org/10.1201/9781003023555-136>
