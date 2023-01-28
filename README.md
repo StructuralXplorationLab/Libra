@@ -8,6 +8,7 @@
 
 - [General info](#general-info)
 - [Installation](#installation)
+- [Tutorials](#tutorials)
 - [Concept](#concept)
 - [Usage](#usage)
 - [Background theory](#background-theory)
@@ -35,6 +36,11 @@
 4. Restart _Rhino_ to load the plugin.
 
 Check the video tutorial [here](https://www.rhino3d.com/features/package-manager/)
+
+# Tutorials
+
+- [Libra Video Tutorials](https://vimeo.com/libragh)
+- [Libra Manual](https://github.com/StructuralXplorationLab/Libra/blob/main/doc)
 
 # Concept
 
