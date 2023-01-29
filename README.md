@@ -173,10 +173,9 @@ https://github.com/StructuralXplorationLab/Libra/releases
 ```
 @software{Mirtsopoulos_Libra_2022,
   title = {{Libra: A grammar for generating structural topologies}},
-  author = {Ioannis, Mirtsopoulos},
+  author = {Mirtsopoulos, Ioannis},
   note = {https://github.com/StructuralXplorationLab/Libra},
-  year = {2022},
-  month = {10},
+  year = {10/2022},
   version = {1.0.5},
   doi = {10.5281/zenodo.7180829},
 }
