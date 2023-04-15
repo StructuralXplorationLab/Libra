@@ -162,6 +162,9 @@ _Fig. 6: Typologies of entropy rate and constructability domains. Black arrows r
 https://github.com/StructuralXplorationLab/Libra/releases
 
 # Related publications
+- **Mirtsopoulos, I.**, Fivet, C., 2023. “Structural Topology Exploration through Policy-Based Generation of Equilibrium Representations.” _Computer-Aided Design_ 160 (July 1, 2023): 103518. <https://doi.org/10.1016/j.cad.2023.103518>
+
+
 - **Mirtsopoulos, I.**, Fivet, C., 2022. "Exploration of static equilibrium representations; policies and genetic algorithms", in: _Structures and Architecture A Viable Urban Perspective?_ pp. 1137–1144. <https://doi.org/10.1201/9781003023555-136>
 
 - **Mirtsopoulos, I.**, Fivet, C., 2021. "Grammar-based generation of bar networks in static equilibrium with bounded bar lengths", in: _Proceedings of International Association for Shell and Spatial Structures (IASS) Symposium 2020/21_. 23-27 August, Guilford, UK. <https://doi.org/10.15126/900337>
