@@ -122,7 +122,7 @@ The available **force(s) selection** options are:
 - _binomial_; two force vectors are selected
 - _trinomial_; three force vectors are selected (feature currently not activated)
 
-**Attention**: Until v1.1.0, _trinomials_ are not activated. SUbsequently, the possible topological configurations are two: _in-between_ and _peripheral/central_. The latter result in the same transformation result. 
+**Attention**: Until v1.1.0, _trinomials_ are not activated. Subsequently, the possible topological configurations are two: _in-between_ and _peripheral/central_. The latter result in the same transformation result. 
 
 As a designer, you make the selection _implicitly_ or _explicitly_.
 
@@ -136,7 +136,7 @@ As a designer, you make the selection _implicitly_ or _explicitly_.
 
 4. **The structural behavior of the transformation**—the type (compression/tension) and magnitude of the axial forces developed along the introduced bars, described as **force indeterminacies**. As a designer, you make the selection _implicitly_ or _explicitly_.
 
-- _explicitly_; manual provision of axial forces (N1, N2, N3) for all two (or three) new bars (*N3 is only necessary when working with _trinomials_)
+- _explicitly_; manual provision of axial forces (N1, N2, N3) for all two (or three) new bars (**Attention**: N3 is only necessary when working with _trinomials_.)
 - _implicitly_; automated definition of axial forces (there is a list of self-explanatory rules; additional parameters might be required)
 
 Fig. 5 illustrates all possible transformations in compliance with the design decisions made. The provided force diagram confirms the static equilibrium condition after the transformation.
