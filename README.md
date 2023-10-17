@@ -26,7 +26,9 @@
 
 # Installation
 
-**Operating System**: Windows
+**Operating System**:
+(v0.0.7) Windows only
+(v1.1.0) Windows full funcitonality | Max OS _Xploration_ Tab is missing
 
 **Version**: Rhinoceros 7
 
@@ -81,7 +83,7 @@ For given loading and boundary conditions, the number of arrangements of tension
 Each step describes a transformation that consists of the introduction of:
 
 - a new **node** (P)
-- one, two or three new **bars**
+- one, two (or three) new **bars**
 - one, two or three new **interim forces** imposed by the static equilibrium condition
 
 Fig. 3 illustrates a simple example of a transformation step.
@@ -118,6 +120,8 @@ The available **force(s) selection** options are:
 - _binomial_; two force vectors are selected
 - _trinomial_; three force vectors are selected (feature currently not activated)
 
+* until v1.1.0, _trinomials_ are not activated. SUbsequently, the possible topological configurations are two: _in-between_ and _peripheral/central_. The latter result in the same transformation result. 
+
 As a designer, you make the selection _implicitly_ or _explicitly_.
 
 - _explicitly_; manual selection of the interim forces and the topology
@@ -130,7 +134,7 @@ As a designer, you make the selection _implicitly_ or _explicitly_.
 
 4. **The structural behavior of the transformation**—the type (compression/tension) and magnitude of the axial forces developed along the introduced bars, described as **force indeterminacies**. As a designer, you make the selection _implicitly_ or _explicitly_.
 
-- _explicitly_; manual provision of axial forces (N1, N2, N3) for all two (or three) new bars
+- _explicitly_; manual provision of axial forces (N1, N2, N3) for all two (or three) new bars (*N3 is only necessary when working with _trinomials_)
 - _implicitly_; automated definition of axial forces (there is a list of self-explanatory rules; additional parameters might be required)
 
 Fig. 5 illustrates all possible transformations in compliance with the design decisions made. The provided force diagram confirms the static equilibrium condition after the transformation.
@@ -163,7 +167,6 @@ https://github.com/StructuralXplorationLab/Libra/releases
 
 # Related publications
 - **Mirtsopoulos, I.**, Fivet, C., 2023. “Structural Topology Exploration through Policy-Based Generation of Equilibrium Representations.” _Computer-Aided Design_ 160 (July 1, 2023): 103518. <https://doi.org/10.1016/j.cad.2023.103518>
-
 
 - **Mirtsopoulos, I.**, Fivet, C., 2022. "Exploration of static equilibrium representations; policies and genetic algorithms", in: _Structures and Architecture A Viable Urban Perspective?_ pp. 1137–1144. <https://doi.org/10.1201/9781003023555-136>
 
