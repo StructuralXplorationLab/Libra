@@ -58,9 +58,9 @@ A primitive setup of the transformative design process with Libra is demonstrate
 
 1. Construct design domain
 2. Construct model
-3. Select forces (in Fig. 6 the selection is implicit—for 2D applications you can only choose between monomials and binomials)
-4. Place new node (in Fig. 6 the selection is explicit—keep it explicit choosing between _UserSelectParam_ and _UserSelectedPt_)
-5. Set force indeterminacies (in Fig. 6 the selection is explicit—keep it explicit by selecting _UserDefinedMagnitude_ and manually define N1, N2, N3 as a Gene Pool)
+3. Select forces
+4. Place new node
+5. Set force indeterminacies
 6. Construct policy
 7. Apply transformation
 
