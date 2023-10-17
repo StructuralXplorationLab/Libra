@@ -27,7 +27,9 @@
 # Installation
 
 **Operating System**:
+
 (v0.0.7) Windows only
+
 (v1.1.0) Windows full funcitonality | Max OS _Xploration_ Tab is missing
 
 **Version**: Rhinoceros 7
@@ -120,7 +122,7 @@ The available **force(s) selection** options are:
 - _binomial_; two force vectors are selected
 - _trinomial_; three force vectors are selected (feature currently not activated)
 
-* until v1.1.0, _trinomials_ are not activated. SUbsequently, the possible topological configurations are two: _in-between_ and _peripheral/central_. The latter result in the same transformation result. 
+**Attention**: Until v1.1.0, _trinomials_ are not activated. SUbsequently, the possible topological configurations are two: _in-between_ and _peripheral/central_. The latter result in the same transformation result. 
 
 As a designer, you make the selection _implicitly_ or _explicitly_.
 
