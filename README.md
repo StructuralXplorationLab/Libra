@@ -26,13 +26,9 @@
 
 # Installation
 
-**Operating System**:
+**Operating System**: Windows _(preferred)_; Mac _(at your own risk)_
 
-(v0.0.7) Windows only
-
-(v1.1.0) Windows full funcitonality | Max OS _Xploration_ Tab is missing
-
-**Version**: Rhinoceros 7
+**Version**: Rhinoceros **8**
 
 1. Run the _PackageManager_ command.
 2. Look for _Libra_.
@@ -179,14 +175,14 @@ https://github.com/StructuralXplorationLab/Libra/releases
 # Citation
 
 ```
-@software{Mirtsopoulos_Libra_A_grammar_2023,
+@software{Mirtsopoulos_Libra_A_grammar_2024,
 author = {Mirtsopoulos, Ioannis},
 doi = {10.5281/zenodo.8396525},
-month = oct,
+month = nov,
 title = {{Libra: A grammar for generating structural topologies}},
 url = {https://doi.org/10.5281/zenodo.8396525},
-version = {1.1.0},
-year = {2023}
+version = {1.3.7},
+year = {2024}
 }
 ```
 
