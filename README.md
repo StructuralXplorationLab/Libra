@@ -22,7 +22,7 @@
 
 # General info
 
-**_Libra_** is a Grasshopper plug-in operating in Rhinoceros 3D by McNeel. It has been developed by [Ioannis Mirtsopoulos](https://linkedin.com/in/ioannismirtsopoulos/) as part of his doctoral research at [Structural Xploration Lab (SXL)](https://www.epfl.ch/labs/sxl/) at [EPFL](https://www.epfl.ch/en/) in Switzerland. **_Libra_** is a _conceptual structural design tool_ that operates on a _topology grammar_, inspired by _Noam's Chomsky_ _"Syntactic Structures"_ and many others.
+**_Libra_** is a Grasshopper plug-in operating in Rhinoceros 3D by McNeel. It has been developed by [Ioannis Mirtsopoulos](https://linkedin.com/in/ioannismirtsopoulos/) as part of his doctoral research at [Structural Xploration Lab (SXL)](https://www.epfl.ch/labs/sxl/) at [EPFL](https://www.epfl.ch/en/) and his postdoctoral stay at [Digital Structures](http://digitalstructures.mit.edu/) research group at [Massachusetts Institute of Technology (MIT)](https://www.mit.edu/), in USA. **_Libra_** is a _conceptual structural design tool_ that operates on a _topology grammar_, inspired by _Noam's Chomsky_ _"Syntactic Structures"_ and many others.
 
 # Installation
 
