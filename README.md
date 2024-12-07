@@ -196,4 +196,4 @@ Collaborations and/or contributions are always welcome. Plus I am always curious
 
 # Acknowledgements
 
-Special thanks to Dr. John Harding for sharing the beauty of _Biomorpher_; a Grasshopper implementation of _Interactive Genetic Algorithms_. The components in the _Xploration_ tab are taken by _Biomorpher_ and have been adjusted accordingly.
+Special thanks to Dr. John Harding for sharing the beauty of _Biomorpher_; a Grasshopper implementation of _Interactive Genetic Algorithms_. The components in the _Xploration_ tab (until v1.1.0) are taken by _Biomorpher_ and have been adjusted accordingly.
