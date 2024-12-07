@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/510770846.svg)](https://zenodo.org/badge/latestdoi/510770846)
+[![DOI](https://zenodo.org/badge/510770846.svg)](https://doi.org/10.5281/zenodo.7180828)
 ![GitHub Release Date](https://img.shields.io/github/release-date/StructuralXplorationLab/Libra?color=%2326a7de&logo=GitHub)
 ![GitHub issues](https://img.shields.io/github/issues/StructuralXplorationLab/Libra?logo=GitHub)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/StructuralXplorationLab/Libra?logo=GitHub)
@@ -177,10 +177,10 @@ https://github.com/StructuralXplorationLab/Libra/releases
 ```
 @software{Mirtsopoulos_Libra_A_grammar_2024,
 author = {Mirtsopoulos, Ioannis},
-doi = {10.5281/zenodo.8396525},
+doi = {10.5281/zenodo.14291905},
 month = nov,
 title = {{Libra: A grammar for generating structural topologies}},
-url = {https://doi.org/10.5281/zenodo.8396525},
+url = {https://doi.org/10.5281/zenodo.14291905},
 version = {1.3.7},
 year = {2024}
 }
