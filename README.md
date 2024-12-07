@@ -1,5 +1,4 @@
 [![DOI](https://zenodo.org/badge/510770846.svg)](https://doi.org/10.5281/zenodo.7180828)
-![Release Date](https://img.shields.io/badge/release-date-2024--12--06-brightgreen)
 ![GitHub issues](https://img.shields.io/github/issues/StructuralXplorationLab/Libra?logo=GitHub)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/StructuralXplorationLab/Libra?logo=GitHub)
 ![alt text](https://github.com/StructuralXplorationLab/Libra/blob/main/img/logoTitle_1200x1200.png)
